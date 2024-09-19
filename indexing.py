@@ -71,7 +71,7 @@ idf = {}
 total_documents = len(processed_documents)
 for term in terms:
     doc_count = sum(1 for doc in processed_documents if term in doc)
-    idf[term] = math.log((total_documents + 1) / (1 + doc_count))
+    idf[term] = math.log10((total_documents + 1) / (1 + doc_count))
 
 
 #Building the document-term matrix by using the tf-idf weights.

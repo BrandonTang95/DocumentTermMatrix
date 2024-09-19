@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
 # AUTHOR: Brandon Tang
 # FILENAME: indexing.py
-# SPECIFICATION: The program will read the file collection.csv and output the tf-idf document-term matrix with the requirements of question 7.
+# SPECIFICATION: The program will read the file collection.csv and output the tf-idf document-term matrix with the requirements of question 7 of HW1
 # FOR: CS 4250- Assignment #1
-# TIME SPENT: 3 hours
+# TIME SPENT: 4 hours
 #-----------------------------------------------------------*/
 
 #Importing some Python libraries
